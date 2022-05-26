@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <title>VICHY</title>
+</head>
+<style>
+    * {
+        font-family: 'Cairo', sans-serif;
+        /* overflow-x: hidden; */
+    }
+
+    .iphone-13-12-pro-max-5 {
+        align-items: flex-start;
+        background-color:
+            #ffffff;
+        display: flex;
+        height: 1296px;
+        min-width: 428px;
+    }
+
+    .hidden,
+    .hidden * {
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .flex-col {
+        align-items: flex-end;
+        background: linear-gradient(0deg,
+                rgba(6, 163, 47, 0.45) -28.68%,
+                rgba(255, 255, 255, 0) 90.48%);
+        display: flex;
+        flex-direction: column;
+        margin-top: -337px;
+        min-height: 1633px;
+        padding: 47px 7px;
+        display: block;
+        /* width: 428px; */
+    }
+
+    .flex-row-1 {
+        align-items: flex-end;
+        display: flex;
+        height: 294px;
+        margin-right: 45px;
+        margin-top: -260px;
+        /* min-width: 405px; */
+        justify-content: center;
+    }
+
+    .img_0413-1 {
+        height: 216px;
+        width: 108px;
+    }
+
+    .group-container {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        /* margin-left: 20px; */
+        min-height: 294px;
+        width: 277px;
+        font-weight:bold
+    }
+
+    .overlap-group1 {
+        height: 198px;
+        position: relative;
+        width: 277px;
+        font-weight:bold
+    }
+
+    .text-19 {
+        left: 265px;
+        letter-spacing: 0;
+        line-height: 16px;
+        position: absolute;
+        text-align: right;
+        top: 114px;
+        white-space: nowrap;
+    }
+
+    .vichy-normaderm-phyt {
+        left: 0;
+        letter-spacing: 0;
+        line-height: 26px;
+        position: absolute;
+        top: 63px;
+        white-space: nowrap;
+    }
+
+    .text-18 {
+        direction: rtl;
+        left: 39px;
+        letter-spacing: 0;
+        line-height: 26px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .group-20 {
+        display: flex;
+        height: 90px;
+        left: 36px;
+        position: absolute;
+        top: 108px;
+        width: 224px;
+    }
+
+    .text-17 {
+        direction: rtl;
+        flex: 1;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -31px;
+        margin-right: -2px;
+        margin-top: 29px;
+        white-space: nowrap;
+        width: 224px;
+    }
+
+    .overlap-group4 {
+        height: 60px;
+        margin-right: 3px;
+        margin-top: 7px;
+        position: relative;
+        width: 171px;
+    }
+
+    .group-22 {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        left: 0;
+        position: absolute;
+        top: 30px;
+        width: 171px;
+    }
+
+    .text-3 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-right: -2px;
+        margin-top: 7px;
+        text-align: right;
+        white-space: nowrap;
+        width: 18px;
+    }
+
+    .text-2 {
+        direction: rtl;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-top: 7px;
+        white-space: nowrap;
+        width: 129px;
+    }
+
+    .percent-1 {
+        left: 131px;
+        letter-spacing: 0;
+        line-height: 39px;
+        position: absolute;
+        text-align: right;
+        top: 26px;
+        white-space: nowrap;
+    }
+
+    .group-21 {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        left: 73px;
+        position: absolute;
+        top: 0;
+        width: 98px;
+    }
+
+    .text-5 {
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-right: -2px;
+        margin-top: 7px;
+        text-align: right;
+        white-space: nowrap;
+        width: 9px;
+    }
+
+    .text-4 {
+        direction: rtl;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-top: 7px;
+        white-space: nowrap;
+        width: 83px;
+    }
+
+    .group-23 {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        margin-right: 4px;
+        width: 131px;
+    }
+
+    .text-15 {
+        direction: rtl;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-top: 7px;
+        white-space: nowrap;
+        width: 111px;
+    }
+
+    .flex-col-1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-right: 4px;
+        margin-top: 327px;
+        margin: 327px auto;
+        /* min-height: 853px;
+        width: 410px; */
+    }
+
+    .icon-color {
+        align-self: flex-start;
+        height: 25px;
+        margin-left: 20.92px;
+        width: 23px;
+    }
+
+    .flex-row {
+        align-items: center;
+        display: flex;
+        margin-top: 25px;
+        margin-right: 51px;
+    }
+
+    .img_0412-1 {
+        height: 223px;
+        margin-top: 5.5px;
+        width: 112px;
+    }
+
+    .overlap-group2 {
+        height: 264px;
+        position: relative;
+        width: 298px;
+        font-weight: bold;
+    }
+
+    .percent {
+        left: 256px;
+        letter-spacing: 0;
+        line-height: 39px;
+        position: absolute;
+        text-align: right;
+        top: 206px;
+        white-space: nowrap;
+    }
+
+    .group-17 {
+        display: flex;
+        height: 60px;
+        justify-content: flex-end;
+        left: 0;
+        position: absolute;
+        top: 128px;
+        width: 298px;
+    }
+
+    .text {
+        direction: rtl;
+        flex: 1;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -24px;
+        margin-right: 5px;
+        margin-top: 22px;
+        white-space: nowrap;
+    }
+
+    .text-1 {
+        height: 32px;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-right: -2px;
+        margin-top: 7px;
+        text-align: right;
+        white-space: nowrap;
+        width: 9px;
+    }
+
+    .vichy-normaderm-cleansing-gel {
+        left: 27px;
+        letter-spacing: 0;
+        line-height: 20px;
+        position: absolute;
+        text-align: right;
+        top: 48px;
+        white-space: nowrap;
+    }
+
+    .group-18 {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        left: 123px;
+        position: absolute;
+        top: 210px;
+        width: 175px;
+    }
+
+    .text-2-1 {
+        direction: rtl;
+        left: 68px;
+        letter-spacing: 0;
+        line-height: 26px;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+    }
+
+    .group-19 {
+        display: flex;
+        height: 30px;
+        justify-content: flex-end;
+        left: 147px;
+        position: absolute;
+        top: 234px;
+        width: 151px;
+    }
+
+    .text-7 {
+        direction: rtl;
+        flex: 1;
+        letter-spacing: 0;
+        line-height: 16px;
+        margin-bottom: -9px;
+        margin-right: 2px;
+        margin-top: 7px;
+        white-space: nowrap;
+    }
+
+    .group-16 {
+        display: flex;
+        height: 60px;
+        justify-content: flex-end;
+        left: 45px;
+        position: absolute;
+        top: 72px;
+        width: 253px;
+    }
+
+    .group-24 {
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        left: 200px;
+        position: absolute;
+        top: 186px;
+        width: 98px;
+    }
+
+    .overlap-group3 {
+        height: 341px;
+        margin-left: 5px;
+        margin-top: 26px;
+        position: relative;
+        width: 235px;
+        font-weight: bold;
+    }
+
+    .rectangle-28 {
+        border-radius: 16px;
+        height: 320px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 235px;
+    }
+
+    .img_0413 {
+        height: 303px;
+        left: 77px;
+        position: absolute;
+        top: 38px;
+        width: 152px;
+    }
+
+    .img_0412 {
+        height: 340px;
+        left: 7px;
+        position: absolute;
+        top: 0;
+        width: 170px;
+    }
+
+    .vichy-normaderm {
+        color: #000;
+        font-family: 'Cairo', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 28px;
+        margin-left: 7px;
+        margin-top: 16px;
+        min-height: 54px;
+        min-width: 215px;
+        text-align: right;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .text-1-1 {
+        color: #000;
+        direction: rtl;
+        font-family: 'Cairo', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 50px;
+        margin-left: 6px;
+        margin-top: 5px;
+        min-height: 58px;
+        min-width: 284px;
+        white-space: nowrap;
+        text-align: center
+    }
+</style>
+
+<div class="iphone-13-12-pro-max-5screen">
+    <div class="flex-col">
+        <div class="flex-col-1">
+            <h1 class="text-1-1">روتين البشرة الدهنية</h1>
+            <div class="overlap-group3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                <img class="rectangle-28" src="images/rectangle-4.png" />
+                <img class="img_0412" src="images/img-0412-2.png" />
+                <img class="img_0413" src="images/img-0413-2.png" />
+            </div>
+            <div class="vichy-normaderm wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">Vichy Normaderm</div>
+            <div class="flex-row">
+                <img class="img_0412-1" src="images/img-0412-2.png" />
+                <div class="overlap-group2 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="vichy-normaderm-cleansing-gelcairo-semi-bold-black-20px">
+                        Vichy Normaderm Cleansing gel
+                    </div>
+                    <div class="text-2-1cairo-semi-bold-black-20px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        اول خطوة في روتين البشرة الدهنية هيكون </div>
+                    <div class="group-17">
+                        <p class="textcairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                            ينضف البشرة بعمق و بينظم االفرازات الدهنية للبشرة عشان فيه
+                        </p>
+                        <div class="text-1cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">-</div>
+                    </div>
+                    <div class="group-18">
+                        <div class="text-2cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">2% حمض الساليسيليك</div>
+                        <div class="text-3cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">-1</div>
+                    </div>
+                    <div class="group-19">
+                        <div class="text-7cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">مياه فيشى الحرارية</div>
+                        <div class="text-3cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">-2</div>
+                    </div>
+                    <div class="group-16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <p class="textcairo-normal-black-16px">
+                            المناسب للبشرة المختلطة و الدهنية المعرضة للحبوب
+                        </p>
+                        <div class="text-1cairo-normal-black-16px">-</div>
+                    </div>
+                    <div class="percentcairo-normal-black-16px">2%</div>
+                    <div class="group-24 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <div class="text-4cairo-normal-black-16px">بيحتوى على</div>
+                        <div class="text-5cairo-normal-black-16px">-</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-row-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+            <img class="img_0413-1" src="images/img-0413-2.png" />
+            <div class="group-container">
+                <div class="overlap-group1">
+                    <div class="group-20">
+                        <p class="text-17cairo-normal-black-16px"> بيجدد خاليا البشرة و بيقلل ظهور الحبوب والرؤوس
+                            السوداء عن طريق تنظيم الإفرازات الدهنية
+                        </p>
+                    </div>
+
+                    <div class="vichy-normaderm-phytcairo-semi-bold-black-20px">
+                        Vichy Normaderm Phytosolution Double Correction
+                    </div>
+                    <div class="text-18cairo-semi-bold-black-20px">
+                        تاني خطوة في روتين البشرة الدهنية هيكون
+                    </div>
+                    <!-- <div class="text-19cairo-normal-black-16px">-</div> -->
+                </div>
+                <div class="overlap-group4">
+                    <div class="group-21">
+                        <div class="text-4cairo-normal-black-16px">بيحتوى على</div>
+                        <div class="text-5cairo-normal-black-16px">-</div>
+                    </div>
+                    <div class="group-22">
+                        <div class="text-2cairo-normal-black-16px">2% حمض الساليسيليك</div>
+                        <div class="text-3cairo-normal-black-16px">-1</div>
+                    </div>
+                </div>
+                <div class="group-23">
+                    <div class="text-15cairo-normal-black-16px">هيالورونيك اسيد</div>
+                    <div class="text-3cairo-normal-black-16px">-2</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+
+</html>
