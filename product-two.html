@@ -14,7 +14,11 @@
 <style>
     * {
         font-family: 'Cairo', sans-serif;
-        /* overflow-x: hidden; */
+    }
+
+    body {
+        overflow-x: hidden;
+
     }
 
     .iphone-13-12-pro-max-5 {
@@ -231,8 +235,8 @@
         display: flex;
         flex-direction: column;
         margin-right: 4px;
-        margin-top: 327px;
-        margin: 327px auto;
+        margin-top: 327px !important;
+        margin: 27px auto;
         /* min-height: 853px;
         width: 410px; */
     }
@@ -406,11 +410,12 @@
     }
 
     .img_0412 {
-        height: 340px;
-        left: 7px;
+        height: 354px;
+        left: 30px;
         position: absolute;
         top: 0;
-        width: 170px;
+        width: 183px;
+        object-fit: contain;
     }
 
     .vichy-normaderm {
@@ -445,9 +450,19 @@
         text-align: center
     }
 
-    @media(max-width:375px) {
+    .product-1 {
+        text-align: center;
+        padding: 10px 35px;
+        margin-bottom: 50px
+    }
 
-        .flex-row {
+    .product-1.two .product1-info {
+        margin-right: -56px;
+    }
+
+    @media(max-width:580px) {
+
+        /* .flex-row {
             flex-direction: column !important;
             align-items: end;
         }
@@ -456,10 +471,28 @@
             flex-direction: column !important;
             margin-top: -300px;
             height: 100%;
+        } */
+        body {
+            overflow-x: hidden;
         }
 
         .overlap-group2 {
             right: 0 !important;
+        }
+
+        .product1-info {
+            margin-top: 25px;
+        }
+        .product-1.two .product1-info{
+            margin-right: 0;
+        }
+
+        .product-1.two .product1-info img {
+            margin-right: -55px !important;
+        }
+
+        .product1-img {
+            text-align: end;
         }
     }
 </style>
@@ -472,87 +505,43 @@
             </a>
             <h1 class="text-1-1">روتين البشرة الدهنية</h1>
             <div class="overlap-group3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-                <img class="rectangle-28" src="images/rectangle-4.png" />
-                <img class="img_0412" src="images/img-0412-2.png" />
-                <img class="img_0413" src="images/img-0413-2.png" />
+                <img class="rectangle-28" src="images/rectangle-2.png" />
+                <img class="img_0412" src="images/group 40.png" />
+                <!-- <img class="img_0413" src="images/img-0413-2.png" /> -->
             </div>
             <div class="vichy-normaderm wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">Vichy Normaderm
             </div>
-            <div class="flex-row">
-                <img class="img_0412-1" src="images/img-0412-2.png" />
-                <div class="overlap-group2 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="vichy-normaderm-cleansing-gelcairo-semi-bold-black-20px">
-                        Vichy Normaderm Cleansing gel
+        </div>
+        <div class="product-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product1-img wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <img src="images/IMG_0412.png" width="112" height="223">
                     </div>
-                    <div class="text-2-1cairo-semi-bold-black-20px wow fadeInRight" data-wow-duration="1s"
-                        data-wow-delay="0.6s">
-                        اول خطوة في روتين البشرة الدهنية هيكون </div>
-                    <div class="group-17">
-                        <p class="textcairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s">
-                            ينضف البشرة بعمق و بينظم االفرازات الدهنية للبشرة عشان فيه </p>
-                        <div class="text-1cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s">-</div>
-                    </div>
-                    <div class="group-18">
-                        <div class="text-2cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s"> 2% حمض الساليسيليك </div>
-                        <div class="text-3cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s"> -1 </div>
-                    </div>
-                    <div class="group-19">
-                        <div class="text-7cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s"> مياه فيشى الحرارية   </div>
-                        <div class="text-3cairo-normal-black-16px wow fadeInRight" data-wow-duration="1s"
-                            data-wow-delay="0.6s"> -2 </div>
-                    </div>
-                    <div class="group-16 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-                        <p class="textcairo-normal-black-16px">
-                            المناسب للبشرة المختلطة و الدهنية المعرضة للحبوب </p>
-                        <div class="text-1cairo-normal-black-16px">-</div>
-                    </div>
-                    <div class="percentcairo-normal-black-16px">2%</div>
-                    <div class="group-24 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-                        <div class="text-4cairo-normal-black-16px">بيحتوى على</div>
-                        <div class="text-5cairo-normal-black-16px">-</div>
+                </div>
+                <div class="col-md-6">
+                    <div class="product1-info wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <img src="images/Group 1.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="flex-row-1 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-            <img class="img_0413-1" src="images/img-0413-2.png" />
-            <div class="group-container">
-                <div class="overlap-group1">
-                    <div class="group-20">
-                        <p class="text-17cairo-normal-black-16px"> بيجدد خاليا البشرة و بيقلل ظهور الحبوب والرؤوس
-                            السوداء عن طريق تنظيم الإفرازات الدهنية
-                        </p>
-                    </div>
-
-                    <div class="vichy-normaderm-phytcairo-semi-bold-black-20px">
-                        Vichy Normaderm Phytosolution Double Correction </div>
-                    <div class="text-18cairo-semi-bold-black-20px">
-                        تاني خطوة في روتين البشرة الدهنية هيكون
-                    </div>
-                    <!-- <div class="text-19cairo-normal-black-16px">-</div> -->
-                </div>
-                <div class="overlap-group4">
-                    <div class="group-21">
-                        <div class="text-4cairo-normal-black-16px">بيحتوى على</div>
-                        <div class="text-5cairo-normal-black-16px">-</div>
-                    </div>
-                    <div class="group-22">
-                        <div class="text-2cairo-normal-black-16px">2% حمض الساليسيليك</div>
-                        <div class="text-3cairo-normal-black-16px"> -1 </div>
+        <div class="product-1 two">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product1-img wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <img src="images/img-0413-2.png" width="108" height="216">
                     </div>
                 </div>
-                <div class="group-23">
-                    <div class="text-15cairo-normal-black-16px">هيالورونيك اسيد</div>
-                    <div class="text-3cairo-normal-black-16px"> -2 </div>
+                <div class="col-md-6">
+                    <div class="product1-info wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <img src="images/Group 2.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
 <script src="js/jquery-3.6.0.min.js"></script>
