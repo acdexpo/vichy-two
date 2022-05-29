@@ -39,7 +39,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 7px;
-        margin-top: 25px;
+        margin-top: 0;
         min-height: 382px;
         /* width: 353px; */
     }
@@ -52,9 +52,10 @@
     }
 
     .overlap-group {
-        height: 267px;
+        height: 364px;
         position: relative;
         width: 154px;
+        text-align: center;
     }
 
     .img_0422 {
@@ -83,7 +84,7 @@
     }
 
     .overlap-group3 {
-        height: 269px;
+        height: 366px;
         margin-left: 45px;
         position: relative;
         width: 154px;
@@ -99,11 +100,12 @@
     }
 
     .img_0413 {
-        height: 213px;
-        left: 47px;
+        height: 303px;
+        left: 65px;
         position: absolute;
-        top: 31px;
-        width: 107px;
+        top: 3px;
+        width: 85px;
+        object-fit: contain;
     }
 
     .img_0412 {
@@ -123,7 +125,7 @@
         letter-spacing: 0;
         line-height: 20px;
         margin-right: 5px;
-        margin-top: 26px;
+        margin-top: 0;
         min-height: 40px;
         min-width: 162px;
         text-align: left;
@@ -131,9 +133,10 @@
     }
 
     .vichy-logo {
-        height: 65px;
+        height: 155px;
         margin-right: 6px;
-        width: 161px;
+        width: 173px;
+        object-fit: contain;
     }
 
     .group-4 {
@@ -161,8 +164,13 @@
         display: flex;
         height: 136px;
         margin-left: 2px;
-        margin-top: 28px;
+        margin-top: 0;
         justify-content: center;
+        padding: 0 5px;
+    }
+
+    .group-3 p {
+        direction: rtl;
     }
 
     .text-2 {
@@ -189,6 +197,8 @@
         margin-left: 50px;
         position: relative;
         width: 149px;
+        top: 284px;
+        right: 46px;
     }
 
     .rectangle-9 {
@@ -231,7 +241,9 @@
         display: flex;
         flex-direction: column;
         min-height: 74px;
-        /* width: 149px; */
+        width: 149px;
+        top: 280px;
+        position: relative;
     }
 
     .vichy-capital-soleil {
@@ -276,7 +288,7 @@
 
     .overlap-group1 {
         height: 400px;
-        margin-top: -58px;
+        margin-top: -105px;
         position: relative;
         display: flex;
         justify-content: center
@@ -327,8 +339,24 @@
         text-align: center;
         top: 45px;
     }
-    .facebook{
+
+    .facebook {
         display: contents;
+    }
+
+    @media(max-width:991px) {
+        .overlap-group-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .overlap-group {
+            width: auto;
+        }
+
+        .overlap-group3 {
+            margin-left: 0;
+        }
     }
 </style>
 
@@ -343,30 +371,28 @@
                         <img class="rectangle-4" src="images/rectangle-4.svg" />
                         <img class="img_0422" src="images/img-0422-2.png" />
                         <img class="img_0420" src="images/img-0420-2.png" />
+                        <div class="flex-col-1 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <div class="vichy-capital-soleil">Vichy Capital Soleil</div>
+                            <div class="overlap-group4">
+                                <div class="rectangle-7"></div>
+                                <a href="product-three.html">
+                                    <img class="component-1-1" src="images/Component-1.png" />
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <div class="overlap-group3 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
                         <img class="rectangle-2" src="images/rectangle-4.png" />
                         <img class="img_0412" src="images/img-0412-2.png" />
                         <img class="img_0413" src="images/img-0413-2.png" />
+                        <div class="overlap-group2 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
+                            <div class="rectangle-9"></div>
+                            <a href="product-two.html">
+                                <img class="component-2-1" src="images/Component-2.png" />
+                            </a>
+                            <div class="vichy-normaderm">Vichy Normaderm</div>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="flex-row">
-                <div class="flex-col-1 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="vichy-capital-soleil">Vichy Capital Soleil</div>
-                    <div class="overlap-group4">
-                        <div class="rectangle-7"></div>
-                        <a href="product-three.html">
-                            <img class="component-1-1" src="images/Component-1.png" />
-                        </a>
-                    </div>
-                </div>
-                <div class="overlap-group2 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="rectangle-9"></div>
-                    <a href="product-two.html">
-                        <img class="component-2-1" src="images/Component-2.png" />
-                    </a>
-                    <div class="vichy-normaderm">Vichy Normaderm</div>
                 </div>
             </div>
             <div class="group-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
@@ -376,12 +402,11 @@
             </div>
             <div class="overlap-group1 wow fadeOutRight" data-wow-duration="1s" data-wow-delay="0.6s">
                 <img class="group-63x" src="images/Group-6.png" />
-                <a href="https://www.facebook.com/CeraVeEgypt/" class="facebook"> <img class="rectangle-27" src="images/Group-2.png" /> </a>
+                <a href="https://www.facebook.com/CeraVeEgypt/" class="facebook"> <img class="rectangle-27"
+                        src="images/Group-2.png" /> </a>
             </div>
         </div>
     </div>
-
-
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/wow.min.js"></script>
